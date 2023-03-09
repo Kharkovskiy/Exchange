@@ -42,13 +42,6 @@ const CurrencyExchange = ({ currencies }) => {
         </Dropdown.Item>
       );
     });
-
-    // const handleClick = (item) => () => {
-    //     setCurr(item.cc);
-    //     setRate(item.rate);
-    // }
-    //
-    // onClick={handleClick(item)}
   };
 
   const firstCurrencyList = useMemo(
