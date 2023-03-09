@@ -1,0 +1,57 @@
+.exchange_section {
+  width: 50%;
+  margin: 200px auto;
+}
+
+nav.hover > a {
+  visibility: inherit;
+}
+
+.input_gpoup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input_gpoup > input {
+  height: 48px;
+}
+
+.input-group .dropdown-menu.show {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.input-group .dropdown-menu.show::-webkit-scrollbar {
+  width: 10px;
+}
+
+.input-group .dropdown-menu.show::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.input-group .dropdown-menu.show::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.input-group .dropdown-menu.show::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.input-group .dropdown-item {
+  margin: 4px 0 5px 0;
+  border-bottom: 1px solid;
+}
+
+.exchange_section .input-group > .form-control {
+  border-right: none;
+  margin-right: -5px;
+  font-weight: bold;
+}
+
+@media (max-width: 560px) {
+  .exchange_section {
+    width: 80%;
+    margin: 100px;
+  }
+}
